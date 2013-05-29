@@ -8,7 +8,7 @@ Timbl Tools
 Version 0.5
 
 Copyright (C) 2008-2013 by Erwin Marsi
-
+https://github.com/emsrc/timbl-tools
 e.marsi@gmail.com
 
 
@@ -39,6 +39,8 @@ license information see the file COPYING.
 	INSTALLATION
 --------------------------------------------------------------------------------
 
+Python packages are available from
+https://github.com/emsrc/timbl-tools/wiki/Python-Packages
 For installation instruction see the file INSTALL.
 
 

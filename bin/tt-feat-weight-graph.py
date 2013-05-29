@@ -9,7 +9,7 @@ relative feature weights, for each of the different feature weighting schemes,
 to standard output.
 
 Example:
-  $ Timbl -f dimin.train |tt-feat_weight_graph.py
+  $ Timbl -f dimin.train |tt-feat-weight-graph.py
 """
 
 import sys

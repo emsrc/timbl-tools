@@ -4,12 +4,12 @@
 
 ================================================================================
 
-DAESO Framework
+Timbl tools
 Version 0.5
 
 Copyright (C) 2007-2013 by Erwin Marsi and TST-Centrale
 
-http://daeso.uvt.nl
+https://github.com/emsrc/timbl-tools
 e.marsi@gmail.com
 
 
@@ -33,7 +33,8 @@ currently untested.
 --------------------------------------------------------------------------------
 
 1. Download the source archive in your preferred format
-   (e.g. timbl-tools-0.5.tar.gz) from http://daeso.uvt.nl
+   (e.g. timbl-tools-0.5.tar.gz) from 
+   https://github.com/emsrc/timbl-tools/wiki/Python-Packages
 
 2. Unpack (e.g. tar xvzf timbl-tools-0.5.tar.gz) in a suitable location
    (e.g. /usr/local/src)
