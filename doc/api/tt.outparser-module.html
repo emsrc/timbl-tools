@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>tt.outparser</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="tt-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="tt-module.html">Package&nbsp;tt</a> ::
+        Module&nbsp;outparser
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="tt.outparser-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module outparser</h1><p class="nomargin-top"><span class="codelink"><a href="tt.outparser-pysrc.html">source&nbsp;code</a></span></p>
+<p>Parsing Timbl ouput</p>
+  <p>The general idea here is to have lazy parsing in two ways. First, 
+  functions are generally iterators which yield a first result without 
+  analyzing the full string. Second, functions parse the input string into 
+  its constituents, but without descending into parsing these constituents 
+  - that's up to the caller.</p>
+
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_timbl_output" class="summary-sig-name">parse_timbl_output</a>(<span class="summary-sig-arg">timbl_output</span>)</span><br />
+      Parse Timbl ouput</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_timbl_output">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_inst" class="summary-sig-name">parse_inst</a>(<span class="summary-sig-arg">inst_str</span>,
+        <span class="summary-sig-arg">feat_sep</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">with_distrib</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">with_distance</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Parse Timbl instance</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_inst">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_feats" class="summary-sig-name">parse_feats</a>(<span class="summary-sig-arg">feats_str</span>,
+        <span class="summary-sig-arg">feat_sep</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Parse features of an instance</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_feats">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_distrib" class="summary-sig-name">parse_distrib</a>(<span class="summary-sig-arg">distrib_str</span>)</span><br />
+      Parse a class distribution string</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_distrib">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_convert_pair"></a><span class="summary-sig-name">_convert_pair</span>(<span class="summary-sig-arg">pair</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#_convert_pair">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_neighbour_vk_vdi" class="summary-sig-name">parse_neighbour_vk_vdi</a>(<span class="summary-sig-arg">nn_str</span>)</span><br />
+      Parse nearest neighbour as produced with Timbl's +vk +vdi option</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_neighbour_vk_vdi">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_distance_vn_vdb" class="summary-sig-name">parse_distance_vn_vdb</a>(<span class="summary-sig-arg">nn_str</span>)</span><br />
+      Parse nearest neighbour as produced with Timbl's +vn +vdb option</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_distance_vn_vdb">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="tt.outparser-module.html#parse_neighbour_vn_vdb" class="summary-sig-name">parse_neighbour_vn_vdb</a>(<span class="summary-sig-arg">nn_str</span>,
+        <span class="summary-sig-arg">feat_sep</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Parse nearest neighbour as produced with Timbl's +vn +vdb option</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="tt.outparser-pysrc.html#parse_neighbour_vn_vdb">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="None">None</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="parse_timbl_output"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_timbl_output</span>(<span class="sig-arg">timbl_output</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_timbl_output">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse Timbl ouput</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>timbl_output</code></strong> - any container which support iteration over the output lines, 
+          usually a file</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>a generator object which yield tuples of an instance string and a
+          list of nearest neighbours
+          <p>This is a generator function which yields (instance, 
+          neighbours) pairs until timbl_ouput is exhausted. It can be 
+          called with &quot;next()&quot; , used in a &quot;for&quot; loop, 
+          etc</p>
+          <p>The list of neighbours remains empty when parsing normal Timbl
+          output.</p></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_inst"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_inst</span>(<span class="sig-arg">inst_str</span>,
+        <span class="sig-arg">feat_sep</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">with_distrib</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">with_distance</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_inst">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse Timbl instance</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>inst_str</code></strong> - instance string</li>
+        <li><strong class="pname"><code>feat_sep</code></strong> - feature separator (defaults to whitespace)</li>
+        <li><strong class="pname"><code>with_dstrib</code></strong> - instance string includes class distribution as produced with 
+          Timbl's +vdb (or +vk) option</li>
+        <li><strong class="pname"><code>with_dist</code></strong> - instance string includes distance as produced with Timbl's +vdi 
+          option</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>a five tuple (feature string, true class, predicted class, 
+          distribution string, distance), where the latter two may be None.
+          If present, distance is a float</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_feats"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_feats</span>(<span class="sig-arg">feats_str</span>,
+        <span class="sig-arg">feat_sep</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_feats">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse features of an instance</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>feats_str</code></strong> - feature string</li>
+        <li><strong class="pname"><code>feat_sep</code></strong> - separator (defaults to whitespace)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>an iterator that returns the individual features, or 
+          StopIteration when exhausted</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_distrib"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_distrib</span>(<span class="sig-arg">distrib_str</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_distrib">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse a class distribution string</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>distrib_str</code></strong> - a class distribution string as produced by Timbl +vdb option, but
+          without the surrounding accolades</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>an iterator that returns subsequent (class, count) tuples, where 
+          class is a string and count is a float, or StopIteration when 
+          exhausted</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_neighbour_vk_vdi"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_neighbour_vk_vdi</span>(<span class="sig-arg">nn_str</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_neighbour_vk_vdi">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse nearest neighbour as produced with Timbl's +vk +vdi option</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>nn_str</code></strong> - nearest neighbour string</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>tuple of class distribution as a string and distance as a float
+          <p>Example: # k=4       { T 1.00000, J 79.0000 }        
+          0.22791476779488</p></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_distance_vn_vdb"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_distance_vn_vdb</span>(<span class="sig-arg">nn_str</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_distance_vn_vdb">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse nearest neighbour as produced with Timbl's +vn +vdb option</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>nn_str</code></strong> - nearest neighbour string</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>distance as a float
+          <p>Input example: # k=2, 14 Neighbor(s) at distance:  
+          0.042844587034556</p></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="parse_neighbour_vn_vdb"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">parse_neighbour_vn_vdb</span>(<span class="sig-arg">nn_str</span>,
+        <span class="sig-arg">feat_sep</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="tt.outparser-pysrc.html#parse_neighbour_vn_vdb">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Parse nearest neighbour as produced with Timbl's +vn +vdb option</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>nn_str</code></strong> - nearest neighbour string</li>
+        <li><strong class="pname"><code>feat_sep</code></strong> - feature separator</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>tuple of instance features as a string and the class as a string
+          <p>Input example: #   = = = = = = = = + p e = { T 1.00000 }</p></dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="tt-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Wed May 29 12:54:49 2013
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+================================================================================
+
+   TIMBL TOOLS README
+
+================================================================================
+
+Timbl Tools
+Version 0.5
+
+Copyright (C) 2008-2013 by Erwin Marsi
+
+e.marsi@gmail.com
+
+
+ 
+--------------------------------------------------------------------------------
+	DESCRIPTION
+--------------------------------------------------------------------------------
+
+Timbl Tools is a collection of Python modules and scripts for working with
+TiMBL, the Tilburg Memory-based Learner. It provides support for:
+
+* creating Timbl servers and clients
+* running (cross-validated) experiments
+* lazy parsing of verbose Timbl ouput (e.g. NN distributions)
+* down-sampling of instances
+* writing ascii graphs of the feature weights
+
+
+--------------------------------------------------------------------------------
+	LICENSE & USAGE
+--------------------------------------------------------------------------------
+
+Timbl Tools is licensed under the GNU Public License. For detailed
+license information see the file COPYING.
+
+
+--------------------------------------------------------------------------------
+	INSTALLATION
+--------------------------------------------------------------------------------
+
+For installation instruction see the file INSTALL.
+
+
+--------------------------------------------------------------------------------
+    DOCUMENTATION
+--------------------------------------------------------------------------------
+
+All executable scripts are self-documenting: use the '-h' options. 
+
+Other documentation, including API reference information, is available in the
+doc directory.
+
+
+--------------------------------------------------------------------------------
+    KNOWN ISSUES
+--------------------------------------------------------------------------------
+
+* TimblServer process is not always killed 
+
+
+--------------------------------------------------------------------------------
+	CONTACT
+--------------------------------------------------------------------------------
+
+For questions, bug reports or feature requests, please contact
+Erwin Marsi at e.marsi@gmail.com.
+
+
+--------------------------------------------------------------------------------
+	ACKNOWLEDGEMENTS
+--------------------------------------------------------------------------------
+
+- Steven Bethard's argparse module (http://code.google.com/p/argparse) 
+
+
+--------------------------------------------------------------------------------
+    PS
+--------------------------------------------------------------------------------
+
+If you found the DAESO Framework useful, or if you discover bugs or make
+improvements, please let me know.
+
+good luck!
+
+Erwin
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+   
+
+

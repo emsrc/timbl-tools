@@ -1,0 +1,8 @@
+include COPYING CHANGES INSTALL 
+recursive-include doc *
+recursive-include test *
+recursive-include data *
+global-exclude *.svn*
+global-exclude *DS_Store*
+global-exclude *~
+global-exclude *.pyc
